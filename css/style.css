@@ -1,0 +1,110 @@
+/* Id selectors can only be used once while class selectors can be used more then once.*/
+/*  psuedo class are for user interaction like :hover and :link and :visited and many more*/'
+html {
+  font-size: 16px; /* 100% = 16px on most screens*/
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: yellow;
+}
+#header {
+  color: yellow; 
+}
+p {
+  color: olive;
+  font-size: 26px;
+}
+header {
+  background-color: #f60; /* this is rthe same as #ff6600*/
+  width: 80%;
+  margin-left: 10%;
+}
+header p {
+   background-color: snow;
+  border-bottom: 1px solid gray;
+}
+#header-box {
+   width: 50%l;
+  background-color: #33d549; /* this value cannot be shortened*/ 
+}
+img {
+   width: 100%;
+}
+footer {
+  background-color: lightcoral;
+}
+a:link {
+ color: darkblue;
+ background-color: peachpuff; 
+ text-decoration: none;
+}
+a:visited {
+   color: seagreen;
+}
+a:hover {
+   text-decoration: underline;
+}
+/* turn links white with an orange background when they recive focus*/
+a:focus {
+  color: rgb(255, 255, 255); /* hex value would be #ffffff*/
+  background-color: rgb(255, 165, 0, .5);
+}
+ol li {
+  letter-spacing: 3px;
+  color: tomato;
+}
+ol li:first-child {
+   font-weight: bold;
+}
+ul li {
+   list-style: none; 
+}
+#education {
+  border: 3px solid red; 
+}
+#education h3 {
+   font-family: Arial, sans-serif;
+  font-size: 32px;
+  background-color: rgb(150, 200, 250)
+}
+#skills-list {
+ background-color: aliceblue; 
+ padding: 36px;
+}
+/*   class selecotor  */
+.top-skill {
+  font-weight: bold; 
+  background-color: teal;
+  color: papayawhip;
+}
+.date {
+  border: 2px solid steelblue;
+  border-radius: 12px;
+  padding: 6px;
+}
+.special {
+ text-transform: uppercase;
+ background-color: papayawhip;
+}
+#proud {
+  font-size: 48px;
+  background-color: firebrick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
